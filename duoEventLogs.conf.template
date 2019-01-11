@@ -1,0 +1,18 @@
+[cef]
+VENDOR = Duo Security
+PRODUCT = Two-factor
+VERSION = 1.0
+SEVERITY = 5
+CEF_VERSION = CEF:0
+
+[api]
+INTEGRATION_KEY = INTEGRATIONKEY
+SECRET_KEY = SECRETKEY
+API_HOST = api.duosecurity.com
+
+# "DELTA" is time offset from now in seconds. Value 
+# must be int. Set to 0 retrieve all messages and 900 
+# should return the last 15 minutes. API limitations 
+# may apply. 
+DELTA = 900
+
