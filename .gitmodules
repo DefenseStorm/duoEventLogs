@@ -1,6 +1,6 @@
 [submodule "ds-integration"]
 	path = ds-integration
-	url = https://github.com/alexDefenseStorm/ds-integration.git
+	url = https://github.com/DefenseStorm/ds-integration.git
 [submodule "duo_client_python"]
 	path = duo_client_python
 	url = https://github.com/duosecurity/duo_client_python.git
