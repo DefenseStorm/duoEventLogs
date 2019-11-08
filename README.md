@@ -30,4 +30,4 @@ git clone --recurse-submodules https://github.com/DefenseStorm/duoEventLogs.git
 3. Add the following entry to the root crontab so the script will run every
    15 minutes.
 
-   */15 * * * * /usr/local/duoEventLogs/duoEventLogs.py
+   */15 * * * * cd /usr/local/duoEventLogs; ./duoEventLogs.py
